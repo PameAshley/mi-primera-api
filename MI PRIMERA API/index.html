@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Responsive con bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
+        <div class="container">
+            <a href="#" class="navbar-brand"><span class="text-primary">Musica</span>A Tope</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Musica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1" >
+
+            </button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1" aria-label="slide 2" >
+
+            </button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2" aria-label="slide 3" >
+
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/Musica1.jpg" class="d-block w-100" alt="imagen de Musicas">
+                <div class="carousel-caption">
+                    <h5>Las Mejores Musicas</h5>
+                    <p>
+                        En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Ver Mas</a></p>
+                </div>
+            </div>
+
+            
+            <div class="carousel-item">
+                <img src="imagenes/alejandro Sanz.jpg" class="d-block w-100" alt="imagen de Musicas">
+                <div class="carousel-caption">
+                    <h5>Las Mejores Musicas</h5>
+                    <p>
+                        En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Ver Mas</a></p>
+                </div>
+            </div>
+            
+            <div class="carousel-item ">
+                <img src="imagenes/shakira.jpg" class="d-block w-100" alt="imagen de Musicas">
+                <div class="carousel-caption">
+                    <h5>Las Mejores Musicas</h5>
+                    <p> 
+                        En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Ver Mas</a></p>
+                        
+                </div>
+
+              
+            </div>
+       
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="carouselE1" data-bs-slide="next">
+
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">next</span>
+        </button>
+    </div>
+
+    <!-- Contenedor con el ID "container" -->
+<div id="container" class="d-flex flex-wrap justify-content-center"></div>
+
+<section class="pagination-content">
+    <!-- Contenido que se paginará -->
+    <div class="item">Contenido 1</div>
+    <div class="item">Contenido 2</div>
+    <!-- ... Agrega más elementos según sea necesario ... -->
+</section>
+
+<section class="pagination">
+    <ul>
+        <!-- Los elementos de paginación se agregarán dinámicamente aquí con JavaScript -->
+    </ul>
+</section>
+
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car1 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Musica A Tope siempre</h3>
+                            <p>
+                                En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                            </p>
+                            <button class="btn bg-primary text-white">Ver Mas</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car2 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Buen Entretenimiento</h3>
+                            <p>
+                                En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                            </p>
+                            <button class="btn bg-primary text-white">Ver Mas</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car3 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Mejor Contenido Musical</h3>
+                            <p>
+                                En Musica A Tope, puedes encontrar todo el entretenimiento que deseas y andas buscando, con los mejores artistas del momento, no lo piensen y entra a disfrutar al maximo.
+                            </p>
+                            <button class="btn bg-primary text-white">Ver Mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-icons">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-gift-fill"></i>
+                        <div class="ms-4">
+                            <h3>Musica Gratis</h3>
+                            <p>
+                                Musica de primera, musica de entretenimiento, musica para recordar, musica para vivir y musica a tope.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-cash-coin"></i>
+                        <div class="ms-4">
+                            <h3>Registro Gratis</h3>
+                            <p>
+                                Musica de primera, musica de entretenimiento, musica para recordar, musica para vivir y musica a tope.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-gift-fill"></i>
+                        <div class="ms-4">
+                            <h3>Acceso Gratis</h3>
+                            <p>
+                                Musica de primera, musica de entretenimiento, musica para recordar, musica para vivir y musica a tope.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="product">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-header text-center pb-5">
+                                    <h2>Musicas</h2>
+                                    <p>
+                                        Musica de primera, musica de entretenimiento, musica para recordar, musica para vivir y musica a tope. <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/bruno Mars.jpeg"  alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/El Canario.jpeg" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/Justin Bieber.jpeg" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/Selena Gomez.jpeg" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/alejandro Sanz.jpg" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/Maroon 5.webp" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/daddy yankee.webp" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md col-lg-3">
+                                <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                                    <div class="text-center">
+                                        <img src="imagenes/adele.webp" alt="artistas">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">card-title</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias aliquid molestias nam libero excepturi.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h2>Sigue la buena musica</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div>
+                                    <img src="imagenes/Musica1.jpg" alt="imagen de musica">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <section class="contact">
+        <div class="container mb-3 mb-lg-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-2 pb-lg-5">
+                        <h2>Contacto</h2>
+                        <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
+                    <form action="#" class="bg-light p-4 m-auto shadow-sm">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Nombre" type="text" required>
+                    
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Email" type="email" required>
+                    
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3" required></textarea>
+                    
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3" type="button">Enviar</button>           
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- ... Seccion de la Paginacion... -->
+
+    <section class="pagination-content">
+        <!-- Contenido que se paginará -->
+         <div class="item">Contenido 1</div>
+         <div class="item">Contenido 2</div>
+         <!-- ... Agrega más elementos según sea necesario ... -->
+   </section>
+
+    <section class="pagination">
+      <ul>
+        <!-- Los elementos de paginación se agregarán dinámicamente aquí con JavaScript -->
+      </ul>
+    </section>
+
+        <footer class="bg-dark pb-2 text-center">
+            <div class="container">
+                <p class="text-white">Todos los derechos reservados</p>
+            </div>
+        </footer>
+           
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">        
+    </script>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
